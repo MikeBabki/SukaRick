@@ -13,6 +13,8 @@
 		DDD3EE6B2977F5E100AE2A46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD3EE692977F5E100AE2A46 /* Main.storyboard */; };
 		DDD3EE6D2977F5E300AE2A46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD3EE6C2977F5E300AE2A46 /* Assets.xcassets */; };
 		DDD3EE702977F5E300AE2A46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD3EE6E2977F5E300AE2A46 /* LaunchScreen.storyboard */; };
+		DDD3EE782977F6BE00AE2A46 /* CharactersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD3EE772977F6BE00AE2A46 /* CharactersModel.swift */; };
+		DDD3EE7A2977F6C500AE2A46 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD3EE792977F6C500AE2A46 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DDD3EE6C2977F5E300AE2A46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDD3EE6F2977F5E300AE2A46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDD3EE712977F5E300AE2A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD3EE772977F6BE00AE2A46 /* CharactersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersModel.swift; sourceTree = "<group>"; };
+		DDD3EE792977F6C500AE2A46 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				DDD3EE632977F5E100AE2A46 /* AppDelegate.swift */,
 				DDD3EE652977F5E100AE2A46 /* SceneDelegate.swift */,
 				DDD3EE672977F5E100AE2A46 /* ViewController.swift */,
+				DDD3EE772977F6BE00AE2A46 /* CharactersModel.swift */,
+				DDD3EE792977F6C500AE2A46 /* NetworkManager.swift */,
 				DDD3EE692977F5E100AE2A46 /* Main.storyboard */,
 				DDD3EE6C2977F5E300AE2A46 /* Assets.xcassets */,
 				DDD3EE6E2977F5E300AE2A46 /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDD3EE682977F5E100AE2A46 /* ViewController.swift in Sources */,
+				DDD3EE782977F6BE00AE2A46 /* CharactersModel.swift in Sources */,
+				DDD3EE7A2977F6C500AE2A46 /* NetworkManager.swift in Sources */,
 				DDD3EE642977F5E100AE2A46 /* AppDelegate.swift in Sources */,
 				DDD3EE662977F5E100AE2A46 /* SceneDelegate.swift in Sources */,
 			);
